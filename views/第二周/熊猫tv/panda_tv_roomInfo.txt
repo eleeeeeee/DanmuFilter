@@ -1,0 +1,71 @@
+{
+    u'chatinfo': [
+        
+    ],
+    u'videoinfo': {
+        u'status': u'2',
+        u'plflag_list': u'{
+            "backup": [
+                "2_4"
+            ],
+            "current": "",
+            "default": false,
+            "https": false,
+            "main": "4_8",
+            "update_time": ""
+        }',
+        u'name': u'dota',
+        u'plflag': u'4_8',
+        u'time': u'9468',
+        u'room_key': u'b22aaba9221c50db7e4015bb445650a2',
+        u'stream_addr': {
+            u'OD': u'0',
+            u'HD': u'1',
+            u'SD': u'1'
+        }
+    },
+    u'roominfo': {
+        u'speak_interval': u'2',
+        u'classification': u'\u82f1\u96c4\u8054\u76df',
+        u'banned_reason': u'\u64ad\u653e\u4f4e\u4fd7\u5185\u5bb9\uff08\u8840\u8165\u3001\u8272\u60c5\u3001\u66b4\u529b\u3001\u53cd\u52a8\u3001\u6d89\u653f\uff09',
+        u'watermark_switch': u'2',
+        u'account_status': u'1',
+        u'mild_remind_reason': u'',
+        u'id': u'55666',
+        u'cate': u'lol',
+        u'pictures': {
+            u'qrcode': u'http: //i5.pdim.gs/96b0599d3dba2693073f1e8912225c06.png',
+            u'img': u'http: //i9.pdim.gs/45/48ec2db185aaf479a10bcc1edd02fc84/w338/h190.jpg'
+        },
+        u'mild_remind_timestamp': 1482203259,
+        u'remind_content': u'',
+        u'remind_status': u'0',
+        u'cover_status': u'2',
+        u'mild_remind_status': u'2',
+        u'fans': u'471792',
+        u'details': u'<p><ahref="https://shop114507316.taobao.com/?spm=a1z10.3-c.0.0.JttvVh"><imgsrc="http://i6.pdim.gs/fdefe7562a439a1b3fab2e0fe9ee1c68.png">\u70b9\u51fb\u56fe\u7247</a>\u8fdb\u5165\u4e3b\u64ad\u8702\u871c\u5e97</p><p><ahref="https://shop145156731.taobao.com/"><imgsrc="http://i6.pdim.gs/780eff9e2354d5dbaad054e15c246727.jpeg"></a></p><p><spanstyle="font-size: 18px;">\u96f6\u98df\u5e97\u70b9\u51fb\u56fe\u7247\u5373\u53ef~</span></p><p><spanstyle="font-size: 18px;"><strong><ahref="http://v.youku.com/v_show/id_XMTU4MDE5NzIwOA==.html?from=y1.7-1.5">\u56fd\u670d\u7b2c\u4e00\u5927\u5934\u89c6\u9891\u5730\u5740</a></strong></span></p><p><spanstyle="font-size: 18px;"><strong><spanstyle="font-size: 16px;">\u4e3b\u64ad\u65b0\u6d6a\u5fae\u535a: </span></strong></span><ahref="http://weibo.com/5702564296/profile?topnav=1&amp;wvr=6&amp;is_all=1"style="font-size: 18px;text-decoration: underline;"><spanstyle="font-size: 18px;"><strong>LOL\u7237\u5927\u5e72</strong></span></a><spanstyle="font-size: 18px;"><strong>\xa0</strong></span></p><p><spanstyle="font-size: 18px;"><strong><spanstyle="font-size: 16px;">\u6b4c\u5355\u8fde\u63a5<ahref="http://music.163.com/#/search/m/?s=%E7%88%B7%E5%A4%A7%E5%B9%B2%E4%BD%A0&amp;type=1002">\u4e3b\u64adBGM</a>\xa0\xa0\u5546\u52a1\u5408\u4f5cQQ\uff1a253516884</span></strong></span></p><p><spanstyle="font-size: 18px;"><strong><spanstyle="font-size: 16px;"><strongstyle="font-size: 18px;">\u76f4\u64ad\u65f6\u95f4\u65e9\u4e0a9\u70b9\u5f00\u59cb-\u5230\u4e0b\u53482\u70b9</strong></span></strong></span></p><p><spanstyle="font-size: 18px;"><strong><spanstyle="font-size: 16px;">QQ\u7fa4</span><br></strong></span></p><p><spanstyle="font-size: 18px;"><strong>\xa0\xa01\u7fa4: 305746753\xa0\xa0\xa02\u7fa4: 483949769\xa0\xa0</strong></span></p><p><spanstyle="font-size: 18px;"><strong>\xa0\xa03\u7fa4: 482585989\xa0\xa0\xa04\u7fa4: 441028095\xa0</strong></span></p><p><spanstyle="font-size: 18px;"><strong>\xa0\xa05\u7fa4: 126957520\xa0\xa0\xa06\u7fa4: 463137650\xa0\xa0</strong></span></p><p><spanstyle="font-size: 18px;"><strong>\xa0\xa07\u7fa4: 436259085\xa0\xa0\xa08\u7fa4: 516727461</strong></span></p><p><imgsrc="http://i8.pdim.gs/f6e3f872567231c351bd3777524acd29.jpg"></p><p><br></p><p><br></p><div></div><div></div>',
+        u'cover_timestamp': 1482203259,
+        u'type': u'1',
+        u'status': u'2',
+        u'start_time': u'1482193791',
+        u'watermark_loc': u'1',
+        u'name': u'\u7237\u5927\u5e72\uff1a\u4eca\u5929\u4e00\u533a\u5e26\u6c34\u53cb\u5b9a\u7ea7~',
+        u'remind_time': u'0',
+        u'unlock_time': u'0',
+        u'cover_reason': u'',
+        u'end_time': u'1482041835',
+        u'person_num': u'236503',
+        u'bulletin': u'\u76f4\u64ad\u65f6\u95f4\u65e9\u4e0a8\u70b9\u534a\u70b9\u5230\u4e0b\u53482\u70b9\u534a~~QQ\u7c89\u4e1d8\u7fa4516727461'
+    },
+    u'hostinfo': {
+        u'bamboos': u'139839285',
+        u'rid': 31368684,
+        u'name': u'\u7237\u5927\u5e72\u4e36',
+        u'avatar': u'http: //i6.pdim.gs/93066daafff81caf5d75777cf32507ef.png'
+    },
+    u'userinfo': {
+        u'is_followed': u'0',
+        u'sp_identity': u'0',
+        u'rid': -83972953
+    }
+}

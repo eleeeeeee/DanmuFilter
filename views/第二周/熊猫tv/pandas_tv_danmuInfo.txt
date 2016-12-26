@@ -1,0 +1,24 @@
+{
+    'NickName': u'Waitress\u7eed\u676f',
+    u'type': u'1',
+    'Content': u'\u76d6\u4f26',
+    'MsgType': 'danmu',
+    u'time': 1482203873,
+    u'data': {
+        u'content': u'\u76d6\u4f26',
+        u'to': {
+            u'toroom': u'55666'
+        },
+        u'from': {
+            u'userName': u'',
+            u'level': u'4',
+            u'nickName': u'Waitress\u7eed\u676f',
+            u'__plat': u'ios',					#pc_web\android\ios
+            u'msgcolor': u'',
+            u'sp_identity': u'0',
+            u'rid': u'23745516',
+            u'badge': u'',
+            u'identity': u'30'
+        }
+    }
+}
