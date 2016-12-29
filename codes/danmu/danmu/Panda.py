@@ -28,9 +28,9 @@ class PandaDanMuClient(AbstractDanMuClient):
         if not os.path.isdir(path):os.makedirs(path)
         j_hostinfo = j.get('hostinfo',{})
         j_roominfo = j.get('roominfo',{})
-        room_id = j_roominfo.get('id','')  #roomid
+        self.room_id = j_roominfo.get('id','')  #roomid
         start_time = j_roominfo.get('start_time','') #start_time
-        self.liveid = room_id+'_'+start_time #liveid
+        self.liveid = self.room_id+'_'+start_time #liveid
         self.person_num = j_roominfo.get('person_num','')
         end_time = j_roominfo.get('end_time','')  #end_time
         host_id = j_hostinfo.get('rid',-1)
@@ -39,7 +39,7 @@ class PandaDanMuClient(AbstractDanMuClient):
         self.weight = j_hostinfo.get('bamboos','')
         avater = j_roominfo.get('pictures',{}).get('img','')
         filename = path+'/'+self.cate+'.csv'
-        val = [self.liveid,start_time,end_time,room_id,host_id,self.cate,avater]
+        val = [self.liveid,start_time,end_time,self.room_id,host_id,self.cate,avater]
         if not PandaDanMuClient.isload:
             isExist,self.hislivid = self.loadhistoryliveid(filename)
             PandaDanMuClient.isload = True
@@ -117,7 +117,7 @@ class PandaDanMuClient(AbstractDanMuClient):
         return get_danmu, heart_beat
     # 弹幕提取
     def _extract_danmu(self,msg,strTag = '\"'):
-            path = self.__workdir__+'data/pandas/danmuinfo'
+            path = self.__workdir__+'data/pandas/danmuinfo/'+self.cate
             if not os.path.isdir(path):os.makedirs(path)
             cur_time = msg.get('time',-1)
             msgfrom = msg.get('data', {}).get('from', {})
@@ -127,12 +127,12 @@ class PandaDanMuClient(AbstractDanMuClient):
             plat = msgfrom.get('__plat','')
             content = msg.get('data',{}).get('content','').encode('UTF-8')
             val = [self.liveid,cur_time,self.person_num,self.fans,self.weight,user_id,level,plat,nickname,content]
-            with open(path+'/'+self.cate+'.csv', 'ab') as f:
+            with open(path+'/'+self.room_id+'.csv', 'ab') as f:
                 writer = csv.writer(f,quotechar=strTag)
                 writer.writerow(val)
         # 礼物提取
     def _extract_gift(self,msg,strTag = '\"'):
-            path = self.__workdir__+'data/pandas/giftinfo'
+            path = self.__workdir__+'data/pandas/giftinfo/'+self.cate
             if not os.path.isdir(path):os.makedirs(path)
             cur_time = msg.get('time',-1)
             msgfrom = msg.get('data', {}).get('from', {})
@@ -147,7 +147,7 @@ class PandaDanMuClient(AbstractDanMuClient):
                 price = float(price)/10.0
             combo = msgContent.get('combo','1')
             val = [self.liveid,cur_time,self.person_num,self.fans,self.weight,user_id,nickname,avatar,price,combo]
-            with open(path+'/'+self.cate+'.csv', 'ab') as f:
+            with open(path+'/'+self.room_id+'.csv', 'ab') as f:
                 writer = csv.writer(f,quotechar=strTag)
                 writer.writerow(val)
             print(val)    
